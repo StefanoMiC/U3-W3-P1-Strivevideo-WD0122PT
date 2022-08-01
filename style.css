@@ -1,0 +1,108 @@
+body {
+  background-color: #0f171e;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav.navbar {
+  background-color: #0f171e;
+  background-image: -webkit-linear-gradient(top, #1b2530, rgba(27, 37, 48, 0.85));
+  background-image: -o-linear-gradient(top, #1b2530 0, rgba(27, 37, 48, 0.85) 100%);
+  background-image: linear-gradient(180deg, #1b2530 0, rgba(27, 37, 48, 0.85));
+
+  font-weight: 500;
+}
+
+.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show > .nav-link {
+  font-weight: 700;
+  border-bottom: 1px solid white;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 0;
+}
+
+.navbar-nav .nav-link {
+  margin: 8px;
+}
+
+.dropdown-menu {
+  background-color: rgb(30 41 53);
+}
+
+.dropdown-item {
+  color: white;
+}
+.dropdown-item:focus,
+.dropdown-item:hover {
+  color: white;
+  text-decoration: none;
+  background-color: rgb(37, 49, 61);
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: #00aae1;
+}
+
+.dropdown .btn {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 500;
+  font-size: 0.9rem;
+  letter-spacing: 0.1px;
+}
+
+.dropdown .btn:hover > span {
+  color: white;
+}
+
+.carousel-indicators li {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  filter: drop-shadow(0px 2px 6px);
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  width: 50px;
+}
+.section-title h3 {
+  display: inline-block;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+
+.section-title a {
+  color: #79b8f3;
+  text-decoration: none;
+  font-size: 0.85rem;
+  vertical-align: middle;
+}
+.section-title a:hover {
+  color: #90dffe;
+}
+.prime-badge {
+  position: absolute;
+  top: 0;
+  left: 0.25rem;
+}
+
+#gridCarousel .carousel-control-prev {
+  left: -35px;
+}
+
+#gridCarousel .carousel-control-next {
+  right: -35px;
+}
